@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(83, 81, 81);
+    margin: 0;
+}
+
+.container{
+    box-sizing: border-box;
+    border: 2px solid rgb(42, 184, 192);
+    position: relative;
+    width: 80vw;
+    height: 95vh;
+    background-color: gray;
+    margin-left: 6%;
+    margin-right: 14%;
+}
+
+header{
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: 20%;
+    background-color: rgb(226, 91, 53);
+    border-bottom: 2px solid rgb(42, 184, 192);
+}
+nav{
+    width: 25%;
+    height: 25%;
+    box-sizing: border-box;
+    position: relative;
+    top: 75%;
+    left: 75%;
+    border-radius: 4px;
+    border: 2px solid rgb(42, 184, 192);
+    background-color: rgb(42, 184, 192);
+    color: white;
+}
+.nav{
+    position: relative;
+    box-sizing: border-box;
+    padding: 0;
+    margin-top: 5px;;
+}
+.liNav{
+    display: inline;
+    margin-left: 20px
+}
+main{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(164, 198, 228);
+    margin: 0;
+}
+.principal{
+    width: 72%;
+    height: 95%;
+    position: relative;
+    box-sizing: border-box;
+    top: 8px;
+    left: 18px;
+    background-color: aliceblue;
+    border: 2px solid rgb(249, 129, 69);
+}
+.cuadro-principal{
+    width: 93%;
+    height: 28%;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 16px;
+    margin-left: 30px;
+    border: 2px solid rgb(249, 129, 69);
+    background-color: rgb(185, 163, 154);
+}
+aside{
+    width: 25%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    background-color: bisque;
+    left: 75%;
+    border: 2px solid rgb(42, 184, 192);
+    bottom: 406px;
+}
+.principal-aside{
+    width: 94%;
+    height: 94%;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 2%;
+    margin-left: 3%;
+    border: 2px solid rgb(241, 110, 45);
+    background-color: rgb(243, 205, 158);
+}
+.cuadro-aside {
+    width: 93%;
+    height: 20%;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 14px;
+    margin-left: 3.5%;
+    border: 2px solid rgb(47, 108, 161);
+    background-color: rgb(215, 216, 144);
+}
+footer{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 15%;
+    border-top: 2px solid rgb(42, 184, 192);
+    background-color: rgb(203, 72, 171);
+}

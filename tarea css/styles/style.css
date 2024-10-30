@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(231, 237, 237);
+    color: black;
+}
+#mayor{
+    width: 98%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+fieldset{
+    border: 1px;
+}
+#foto{
+    width: 250px;
+    border-radius: 60%;
+    height: 250px;
+    align-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    
+}
+#one{
+    padding-left: 30px;
+    width: 30%;
+    height: 760px;
+    background-color: rgb(111, 108, 108);
+    box-shadow: 5px 3px 3px rgb(148, 146, 146);
+    border-radius: 2%;
+}
+#oneTwo{
+    margin-right: 28px;
+    background-color: rgb(231, 237, 237);
+}
+#two{
+    height: 760px;
+    width: 30%;
+    background-color: rgb(231, 237, 237);
+    box-shadow: 5px 3px 3px rgb(148, 146, 146);
+    border-radius: 2%;
+}
+#three{
+    margin-right: 20px;
+    width: 30%;
+    height: 760px;
+    background-color: rgb(231, 237, 237);
+    box-shadow: 5px 3px 3px rgb(148, 146, 146);
+    border-radius: 2%;
+}
+.first{
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+}
+.second{
+    border-bottom-right-radius: 2%;
+        border-bottom-left-radius: 2%;
+}
+ul{
+    list-style: none;
+    margin-left: -40px;
+}
+.imgs{
+    display: flex;
+}
+.svgs{
+    
+}

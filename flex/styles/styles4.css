@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 20% 20% 20% 20%;
+}
+
+.cuadro {
+    padding-left: 12px;
+    box-sizing: border-box;
+    background-color: rgb(134, 213, 187);
+    border: 2px solid rgb(20, 167, 212);
+    border-radius: 6px;
+}

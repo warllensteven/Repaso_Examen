@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de registro - Mi web</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <form action="" method="get">
+      <fieldset>
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" maxlength="50" id="nombre" />
+        <br /><br />
+        <label for="apelido">Apellido: </label>
+        <input type="text" name="apelido" maxlength="50" id="apelido" />
+        <br /><br />
+        <label for="sexo">Sexo: </label>
+        <input type="radio" name="sexo" id="sexo" value="mujer" />Mujer
+        <input type="radio" name="sexo" id="sexo" value="hombre" />Hombre
+        <br /><br />
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" />
+        <br /><br />
+        <label for="poblacion">Poblacion:</label>
+        <select name="poblacion" id="poblacion">
+          <option>seleccionar</option>
+          <option value="Bucaramanga">Bucaramanga</option>
+          <option value="Giron">Giron</option>
+          <option value="Floridablanca">Floridablanca</option>
+          <option value="Piedecuesta">Piedecuesta</option>
+        </select>
+        <br /><br />
+        <label for="descripcion">Descripcion:</label>
+        <br />
+        <textarea name="descripcion" id="descripcion"></textarea>
+        <br /><br />
+        <input type="checkbox" name="novedades" id="novedades" checked />
+        <label for="novedades"
+          >Deseo recibir informacion sobre novedades y ofertas</label
+        >
+        <br /><br />
+        <input type="checkbox" name="novedades" id="novedades" />
+        <label for="novedades"
+          >Declaro haber leido y aceptar las condiciones generales del programa
+          y la normativa sobre proteccion de datos</label
+        >
+        <br /><br />
+        <button type="submit">Enviar</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

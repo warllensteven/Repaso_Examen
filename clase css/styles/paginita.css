@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: darksalmon;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.rectangulos {
+    flex-wrap: wrap;
+    margin: 3px;
+    margin-left: 1%;
+    background-color: rgb(120, 239, 199);
+}
